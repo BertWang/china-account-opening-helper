@@ -1,14 +1,42 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2') format('woff2');
+}
+
 /* 自訂 CSS 樣式 */
 body {
-	font-family: Arial, sans-serif;
-	background-color: #ffffff;
-	padding-top: 70px; /* Adjust based on your header height */
+	margin: 0;
+	color: #0a0a0a;
+	font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    font-family: Roboto;
+	padding-top: 70px; 
+	background-color: #fafafa;
 }
+  
 header {
 	background: transparent;
 	box-shadow: none;
 }
-
 
 .jumbotron {
 	background-color: #f8f9fa;
@@ -43,4 +71,43 @@ section {
 .badge {
 	margin: 5px;
 	cursor: pointer;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+strong, b {
+	font-weight: 700;
+}
+
+.css-h1 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    font-family: Poppins;
+}
+
+.css-h2 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    font-family: Poppins;
+}
+
+.lead {
+    margin: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    font-family: Roboto;
 }
