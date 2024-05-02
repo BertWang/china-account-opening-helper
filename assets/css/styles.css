@@ -19,6 +19,12 @@
 	src: url('https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2') format('woff2');
 }
 
+@media print {
+	body {
+		background-color: #fff;
+	}
+}
+
 /* 自訂 CSS 樣式 */
 body {
 	margin: 0;
