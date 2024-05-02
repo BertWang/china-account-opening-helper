@@ -32,3 +32,15 @@ section {
 	max-width: 100%;
 	height: auto;
 }
+
+.tag-cloud {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.badge {
+	margin: 5px;
+	cursor: pointer;
+}
