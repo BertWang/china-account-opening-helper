@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>生日祝福</title>
+    <title>Yumi生日祝福</title>
     <!-- 引入 Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script>NekoType="socks"</script>
     <style>
+        html,body{
+            cursor: url(https://cdn.custom-cursor.com/db/12330/32/funny-cats-jumping-cat-cursor.png), default !important;
+        }
         body {
             background-color: #f8f9fa;
         }
@@ -46,13 +50,55 @@
             font-size: 18px;
             color: #343a40;
         }
+
+        .cat_bg1 {
+            background-repeat : no-repeat; 
+            background-position-x: right;
+            background-size: 20em; 
+            background-position: 100% 100%; 
+            background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./cat/05.png'); /* 背景圖片 URL，加入透明度 */
+        }
+        .cat_bg2 {
+            background-repeat : no-repeat; 
+            background-position-x: right;
+            background-size: 20em; 
+            background-position: 100% 100%; 
+            background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('./cat/04.png'); /* 背景圖片 URL，加入透明度 */
+        }
+        .cat_bg3 {
+            background-repeat : no-repeat; 
+            background-position-x: right;
+            background-size: 15em; 
+            background-position: 0% 100%; 
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('./cat/02.png'); /* 背景圖片 URL，加入透明度 */
+        }
+        .cat_bg4 {
+            background-repeat : no-repeat; 
+            background-position-x: right;
+            background-size: cover; 
+            background-position: center; 
+            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('./cat/09.png'); /* 背景圖片 URL，加入透明度 */
+        }
+        .cat_bg5 {
+            background-repeat : no-repeat; 
+            background-position-x: right;
+            background-size: 15em; 
+            background-position: right; 
+            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('./cat/06.png'); /* 背景圖片 URL，加入透明度 */
+        } 
+        .btn,a:hover {
+            cursor: url(https://cdn.custom-cursor.com/db/12329/32/funny-cats-jumping-cat-pointer.png), pointer !important;
+        }
     </style>
 </head>
-
 <body>
+    <script src="https://webneko.net/n20171213.js"></script>
     <div class="container mt-5">
-        <div class="jumbotron">
-            <h1 class="display-6">親愛的 Yumi：</h1>
+        <div class="jumbotron cat_bg1">
+            <div class="text-right">
+                <a href="" onclick="catHerding();return false;" class="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="mr-2" style="width: 40px;"><path d="M320 192h17.1c22.1 38.3 63.5 64 110.9 64c11 0 21.8-1.4 32-4v4 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V339.2L280 448h56c17.7 0 32 14.3 32 32s-14.3 32-32 32H192c-53 0-96-43-96-96V192.5c0-16.1-12-29.8-28-31.8l-7.9-1c-17.5-2.2-30-18.2-27.8-35.7s18.2-30 35.7-27.8l7.9 1c48 6 84.1 46.8 84.1 95.3v85.3c34.4-51.7 93.2-85.8 160-85.8zm160 26.5v0c-10 3.5-20.8 5.5-32 5.5c-28.4 0-54-12.4-71.6-32h0c-3.7-4.1-7-8.5-9.9-13.2C357.3 164 352 146.6 352 128v0V32 12 10.7C352 4.8 356.7 .1 362.6 0h.2c3.3 0 6.4 1.6 8.4 4.2l0 .1L384 21.3l27.2 36.3L416 64h64l4.8-6.4L512 21.3 524.8 4.3l0-.1c2-2.6 5.1-4.2 8.4-4.2h.2C539.3 .1 544 4.8 544 10.7V12 32v96c0 17.3-4.6 33.6-12.6 47.6c-11.3 19.8-29.6 35.2-51.4 42.9zM432 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z"/></svg> PLAY</a>
+            </div>
+            <h1 class="display-6">親愛的 Yumi </h1>
             <hr class="my-4">
             <p >
                 在你的生日這特別的一天，讓我們一同感受象神的祝福，因為你就像上天派遣的使者，散播著愛和希望。你的存在如同一道溫暖的陽光，照亮我們的心靈，
@@ -66,10 +112,12 @@
             </p>
             <hr class="my-4">
             <div class="text-center lead">
-                <p>生日快樂，親愛的 Yumi！願你的每一天都充滿愛與喜悅。</p>
+                <p>生日快樂，親愛的 Yumi！</p>
+                <p>願你的每一天都充滿愛與喜悅。</p>
                 <p>真摯地祝福，</p>
                 <p>純瑋 Bert</p>
             </div>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
         </div>
 
          <div class="shadow alert alert-primary shadow" role="alert">
@@ -78,13 +126,14 @@
                 疑：（白眼）我也很利害的 PK 血輪眼.. 大敗
             </p>
         </div>
-        <div class="jumbotron">
+        <div class="jumbotron cat_bg2">
+            <img src="./cat/07.png" width="300" class="mb-3"/>
             <div class="alert alert-warning" role="alert">
                 P.S. 這次特別為你準備了禮物，希望你喜歡：
             </div>
             <div class="row">
                 <!-- 第一份禮物 -->
-                <div class="col-md-6">
+                <div class="col-md-6 mb-3">
                     <div class="card">
                         <div class="card-header">
                             開戶小幫手 (以含關鍵字廣告) (網站提交) (SEO初期)
@@ -102,7 +151,7 @@
                 </div>
     
                 <!-- 第二份禮物 -->
-                <div class="col-md-6">
+                <div class="col-md-6 mb-3">
                     <div class="card">
                         <div class="card-header">
                             LINE 機器人參考 （協助架設和規劃）
@@ -113,8 +162,9 @@
                                 希望透過機器人協助你在客服端口的時間，並建立常見問題解答，尤其是關於自媒體和開戶相關的問題。
                             </p>
                         </div>
-                    </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/><br/>
                 </div>
+                
             </div>
         </div>
 
@@ -176,10 +226,10 @@
             </div>
         </div>
 
-        <div class="jumbotron">
+        <div class="jumbotron cat_bg3">
             <a class="btn btn-outline-info btn-lg btn-block" role="button" data-toggle="modal" data-target="#staticBackdrop">
                 YUMI生日快樂 這一天是你的。HAPPY BIRTHDAY
-            </a>
+            </a><br/><br/><br/><br/><br/><br/><br/><br/>
             <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -190,7 +240,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body cat_bg4">
                         <ul>
                             <li>無條件的愛：真愛是不附帶任何條件或期望的愛。它不要求回報或條件交換，只是純粹地給予和關心。</li>
                             <li>奉獻和牽掛：真愛意味著願意犧牲和奉獻，為對方的幸福和利益而努力。這種愛體現了無私的精神和樂於助人的態度。</li>
@@ -212,7 +262,7 @@
                 後記 (點擊)
             </a>
             <div class="collapse mt-4" id="collapseExample">
-                <div class="card card-body">
+                <div class="card card-body cat_bg5">
                     <div class="row align-items-center">
                         <div class="col-md-6 mb-4">
                             <p>當得知你選擇去中國工作後，我就著手準備這些禮物。<br/>
@@ -221,11 +271,11 @@
                                 那些充滿內心話語的時刻(另一個你)也漸漸少見。<br/><br/>
                                 因此，我想為你製作這份禮物。</p>
                              <p>
-                                我是個害羞的人(很會做但不會表達)，<br/>
+                                我是個害羞的人(只會做但不太會表達)，<br/>
                                 不太會說甜言蜜語(因為很少買到純的蜂蜜)。<br/>
                                 也是個直男(在你面前我不小心又硬又直，少了點彈性和幽默)。<br/>
                                 平常又很硬(腦袋，嘴巴。全身上下肝最硬)<br/>
-                                未來有勞YUMI，在多指導指導。
+                                未來有勞YUMI，在多指導調教。
                             </p>   
                         </div>
                         <div class="col-md-6">
@@ -238,7 +288,25 @@
             </div>
         </div>
     </div>
-
+    <script language='JavaScript'>
+        <!--
+        function anotherNeko(bActive) {
+            
+            x = Math.floor(Math.random() * box.boundWidth());
+            y = Math.floor(Math.random() * box.boundHeight());
+            scat = new Neko(x,y, bActive);
+            
+        }
+        function catHerding()
+        {
+            for(var i = 0; i < 5; i++)
+            {
+                anotherNeko(true);
+            }
+        }
+        //-->
+        </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- 引入 Bootstrap JS 和 jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
